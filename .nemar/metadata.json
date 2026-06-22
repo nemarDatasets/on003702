@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Social Memory cuing",
+  "description": "This dataset comprises EEG recordings from a visual working memory task presented in virtual reality, where participants remembered object details cued by either a social (avatar) or non-social (stick) agent. The study investigates how social versus non-social cues modulate neural signatures of working memory, with cue validity (congruent vs. incongruent) manipulated across trials. Raw and preprocessed EEG data are provided alongside behavioral performance metrics and detailed event coding.",
+  "methods_description": "Participants wore a head-mounted display to complete a visual working memory task in virtual reality. The task required remembering the location and status of four objects (bowl, cup, plate, teapot) cued by either an avatar or stick that pointed left or right. Cues were either valid (congruent with object location) or invalid (incongruent). Participants were probed on memory for item location followed by item status. EEG data were recorded throughout the task with detailed event markers for each trial phase.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,33 @@
       "orcid": "0000-0001-7307-9539"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003702.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "cue validity"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "theta oscillations"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.31234/osf.io/mkags",
       "identifier_type": "DOI",
@@ -33,20 +56,26 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003702",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003702.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Leverhulme Trust",
-      "award_number": "ECF-2018-130"
+      "award_number": "ECF-2018-130",
+      "award_title": "Early Career Fellowship"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "65.4 GB (349 files)"
   ],
   "formats": [
     ".csv",
@@ -59,44 +88,8 @@
     ".txt",
     ".vhdr",
     ".vmrk",
+    ".yml",
     ".zip"
   ],
-  "description": "This dataset comprises EEG recordings from participants performing a visual working memory task presented in virtual reality. Participants viewed objects (bowl, cup, plate, teapot) with varying status and were cued by either an avatar or stick figure pointing left or right. Memory was probed for both item location and status, with cues being either congruent or incongruent with target locations. The dataset includes raw EEG data, processed derivatives, behavioral measures, and comprehensive event coding for analysis of neural correlates of socially and non-socially cued working memory.",
-  "methods_description": "Participants wore a head-mounted display to complete a visual working memory task in virtual reality. EEG was recorded during the task, which involved presentation of memory targets, maintenance intervals, and probe trials with location and status questions. Detailed event codes mark task phases including cue presentation, target onset, maintenance intervals, and response periods.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "virtual reality"
-    },
-    {
-      "term": "social cuing"
-    },
-    {
-      "term": "avatar"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "theta oscillations"
-    },
-    {
-      "term": "cue validity"
-    },
-    {
-      "term": "congruency"
-    },
-    {
-      "term": "memory probe"
-    }
-  ],
-  "source_hash": "5db45ad903ab1edf49029bb8247835ff524d759a0d9078714c5d383335bf1905"
+  "source_hash": "31216f73f31b8812913ec67aea73ee7c7adaaa864d30181542d0ed1059c5625a"
 }
