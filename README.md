@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003702-blue)](https://doi.org/10.82901/nemar.on003702)
+
 EEG Raw and processed data for a memory task presented in virtual reality, 
 The full task is on OSF: https://osf.io/s9xmu/files
 
