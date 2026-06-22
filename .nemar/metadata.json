@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Social Memory cuing",
-  "description": "This dataset comprises EEG recordings from a visual working memory task presented in virtual reality, where participants remembered object details cued by either a social (avatar) or non-social (stick) agent. The study investigates how social versus non-social cues modulate neural signatures of working memory, with cue validity (congruent vs. incongruent) manipulated across trials. Raw and preprocessed EEG data are provided alongside behavioral performance metrics and detailed event coding.",
-  "methods_description": "Participants wore a head-mounted display to complete a visual working memory task in virtual reality. The task required remembering the location and status of four objects (bowl, cup, plate, teapot) cued by either an avatar or stick that pointed left or right. Cues were either valid (congruent with object location) or invalid (incongruent). Participants were probed on memory for item location followed by item status. EEG data were recorded throughout the task with detailed event markers for each trial phase.",
+  "description": "This dataset comprises EEG recordings from a visual working memory task presented in virtual reality, where participants remembered object details cued by either a social (avatar) or non-social (stick) agent. The study investigates how social versus non-social cues modulate neural signatures of working memory, with cue validity (congruent vs. incongruent) manipulated across trials. Raw and preprocessed EEG data are provided alongside behavioral performance metrics and detailed event codes for memory encoding, maintenance, and retrieval phases.",
+  "methods_description": "Participants completed a visual working memory task while wearing a head-mounted display in virtual reality. The task required remembering the location and status of four objects (bowl, cup, plate, teapot) cued by either an avatar or stick that pointed left or right. Cues were either valid (congruent with object location) or invalid (incongruent). Participants were probed sequentially on item location and item status. EEG data were recorded throughout the task with event markers denoting task phases including cue presentation, target onset, maintenance interval, probe presentation, and response times.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -33,12 +33,6 @@
     },
     {
       "term": "cue validity"
-    },
-    {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "theta oscillations"
     }
   ],
   "related_identifiers": [
