@@ -1,7 +1,7 @@
 04b65fac-39d9-4a47-b732-37a38794ae7e nemar-s3 timestamp=1782129677s
 110f5d38-773c-4136-bb8d-e321d912ada3 yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-fleet-annex-policy-cMAxEb/on003702 timestamp=1789386493s
 47b3f6ec-6ab3-457d-9464-1985e5ba410c s3-PRIVATE timestamp=1623776894.95586047s
-516fca69-666e-4b61-a9cb-c887cdbd552d yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-key-registration-tMtXCj/on003702 timestamp=1789403238s
+516fca69-666e-4b61-a9cb-c887cdbd552d fleet-key-registration timestamp=1789403239s
 75085954-9876-4d02-87b6-c016b43fd8f0 runner@runnervm7b5n9:/tmp/nemar-import-on003702-UWRgwH/on003702 timestamp=1782129673s
 94e08d41-12b1-4ce9-9b54-62f5259fb93c runner@runnervm7b5n9:/tmp/nemar-finalize-on003702-GVDi8R/on003702-finalize timestamp=1782129883s
 9a541d3c-4471-4d52-a8d2-f90caf6b87a5 s3-PUBLIC timestamp=1623777021.208209265s
