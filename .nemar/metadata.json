@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Social Memory cuing",
-  "description": "This dataset comprises EEG recordings from a visual working memory task presented in virtual reality, where participants remembered object details cued by either a social (avatar) or non-social (stick) agent. The study investigates how social versus non-social cues modulate neural signatures of working memory, with cue validity (congruent vs. incongruent) manipulated across trials. Raw and preprocessed EEG data are provided alongside behavioral performance metrics and detailed event codes for memory encoding, maintenance, and retrieval phases.",
-  "methods_description": "Participants completed a visual working memory task while wearing a head-mounted display in virtual reality. The task required remembering the location and status of four objects (bowl, cup, plate, teapot) cued by either an avatar or stick that pointed left or right. Cues were either valid (congruent with object location) or invalid (incongruent). Participants were probed sequentially on item location and item status. EEG data were recorded throughout the task with event markers denoting task phases including cue presentation, target onset, maintenance interval, probe presentation, and response times.",
+  "description": "EEG dataset recorded while participants performed a visual working memory task in virtual reality using a head-mounted display. Memory items (a bowl, cup, plate and teapot) were cued by either a virtual avatar or a stick, with cues that were spatially valid or invalid. Participants were probed on item location and item status. The dataset includes raw and processed EEG, behavioral data, event codes and analysis code.",
+  "methods_description": "Participants wore a head-mounted display and completed a virtual reality visual working memory task. An avatar or a stick cued left or right, and objects appeared on the left or right, so cues were either valid or invalid. Participants were probed on memory for item location and then item status while EEG was recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,26 +20,28 @@
       "term": "EEG"
     },
     {
-      "term": "working memory"
-    },
-    {
       "term": "virtual reality"
     },
     {
-      "term": "social cognition"
+      "term": "working memory"
     },
     {
-      "term": "attention"
+      "term": "social cuing"
     },
     {
-      "term": "cue validity"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    },
+    {
+      "term": "alpha and theta oscillations"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.31234/osf.io/mkags",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003702",
@@ -47,21 +49,21 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003702",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003702.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003702",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Leverhulme Trust",
       "award_number": "ECF-2018-130",
-      "award_title": "Early Career Fellowship"
+      "award_title": "Early career fellowship"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -69,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "65.4 GB (349 files)"
+    "60.93 GB (349 files)"
   ],
   "formats": [
     ".csv",
